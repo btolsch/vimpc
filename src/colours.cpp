@@ -65,7 +65,7 @@ bool Colours::InitialiseColours()
 
          init_pair(DEFAULT_ON_CYAN,    COLOR_BLACK, COLOR_CYAN);
          init_pair(DEFAULT_ON_MAGENTA, -1, COLOR_MAGENTA);
-         init_pair(DEFAULT_ON_BLUE,    -1, COLOR_BLUE);
+         init_pair(DEFAULT_ON_BLUE,    COLOR_BLACK, COLOR_BLUE);
          init_pair(DEFAULT_ON_YELLOW,  -1, COLOR_YELLOW);
          init_pair(DEFAULT_ON_GREEN,   -1, COLOR_GREEN);
          init_pair(DEFAULT_ON_RED,     -1, COLOR_RED);
@@ -73,7 +73,7 @@ bool Colours::InitialiseColours()
          init_pair(DEFAULT_ON_WHITE,   -1, COLOR_WHITE);
 
          init_pair(ERRORLINE,          -1, COLOR_RED);
-         init_pair(STATUSLINE,         -1, COLOR_BLUE);
+         init_pair(STATUSLINE,         COLOR_BLACK, COLOR_DARK_BLUE);
       }
    }
 

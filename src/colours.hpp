@@ -23,9 +23,17 @@
 
 #include "wincurses.h"
 
-#define COLOR_RED		88
-#define COLOR_CYAN	27
-#define COLOR_BLACK	234
+#undef COLOR_BLUE
+#undef COLOR_CYAN
+#undef COLOR_GREEN
+#undef COLOR_BLACK
+
+#define COLOR_BLUE		25
+#define COLOR_DARK_BLUE	25
+#define COLOR_ERR_RED	52
+#define COLOR_CYAN		27
+#define COLOR_GREEN		22
+#define COLOR_BLACK		233
 
 namespace Main
 {
