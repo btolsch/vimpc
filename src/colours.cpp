@@ -63,7 +63,7 @@ bool Colours::InitialiseColours()
          init_pair(RED_ON_DEFAULT,     COLOR_RED,      -1);
          init_pair(WHITE_ON_DEFAULT,   COLOR_WHITE,    -1);
 
-         init_pair(DEFAULT_ON_CYAN,    -1, COLOR_CYAN);
+         init_pair(DEFAULT_ON_CYAN,    COLOR_BLACK, COLOR_CYAN);
          init_pair(DEFAULT_ON_MAGENTA, -1, COLOR_MAGENTA);
          init_pair(DEFAULT_ON_BLUE,    -1, COLOR_BLUE);
          init_pair(DEFAULT_ON_YELLOW,  -1, COLOR_YELLOW);

@@ -23,6 +23,10 @@
 
 #include "wincurses.h"
 
+#define COLOR_RED		88
+#define COLOR_CYAN	27
+#define COLOR_BLACK	234
+
 namespace Main
 {
    class Colours
