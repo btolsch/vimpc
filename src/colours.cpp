@@ -72,7 +72,7 @@ bool Colours::InitialiseColours()
          init_pair(DEFAULT_ON_BLACK,   -1, COLOR_BLACK);
          init_pair(DEFAULT_ON_WHITE,   -1, COLOR_WHITE);
 
-         init_pair(ERRORLINE,          -1, COLOR_RED);
+         init_pair(ERRORLINE,          COLOR_BLACK, COLOR_RED);
          init_pair(STATUSLINE,         COLOR_BLACK, COLOR_DARK_BLUE);
       }
    }
